@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react"
 import * as THREE from "three"
 import { Float, Html, useAnimations, useGLTF } from "@react-three/drei"
-import useEventListener from "../hooks/useEventListener"
-import MacBookScreenContent from "./MacBookScreenContent"
-import GuideText from "./GuideText"
+import useEventListener from "../../hooks/useEventListener"
+import MacBookScreenContent from "../MacBookScreenContent"
+import GuideText from "../GuideText"
 
 function MacBook() {
     const [macBookIsOpen, setMacBookIsOpen] = useState(false)
