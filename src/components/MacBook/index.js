@@ -66,7 +66,7 @@ function MacBook() {
         audioLoader.load("./sounds/macbook-button-press.mp3", (buffer) => {
             const audioSource = new THREE.PositionalAudio(audioListener)
             audioSource.setBuffer(buffer)
-            audioSource.setVolume(5)
+            audioSource.setVolume(10)
             audioSource.play()
             audioSources[key] = audioSource
         })
